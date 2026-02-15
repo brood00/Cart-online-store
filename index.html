@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Cart</title>
+</head>
+<body>
+    <div class="container">
+    <h1 class="title">Товары</h1>
+    <div class="filter__btns">
+        <button class="filter__btn" data-category="all">All</button>
+        <button class="filter__btn" data-category="Electronics">Electronics</button>
+        <button class="filter__btn" data-category="Shoes">Shoes</button>
+        <button class="filter__btn" data-category="Clothes">Clothes</button>
+    </div>
+        <ul class="product__list"></ul>
+    <div class="cart__btn-box">
+        <button class="cart__btn"><img src="images/bx_cart.svg" alt=""></button>
+        <p class="cart__btn-currency">0</p>
+    </div>
+    <div class="modal__cart">
+        <div class="cart__content">
+            <button class="cart__close"><img src="images/Vector - 2026-02-14T155158.829.svg" alt=""></button>
+                <h2 class="title__cart">Корзина</h2>
+            <div class="cart__content-midlle">
+                <ul class="list__cart"></ul>
+                <button class="sort__price-btn">Цена <img class="logo__sort-btn" src="images/weui_arrow-filled.svg" alt=""></button>
+            </div>
+            <div class="bottom__cart-content">
+                <button class="clear__cart">Очистить</button>
+                <p class="price__cart">Цена: <span class="text__price">0</span> руб</p>
+            </div>
+        </div>
+    </div>
+        </div>
+</body>
+
+<script src="script.js"></script>
+</html>
